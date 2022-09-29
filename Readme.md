@@ -127,6 +127,6 @@ python app/test_api.py
 ```
 
 
-### swagger
+### Test using swagger
 
 ### url : http://localhost:5002/
