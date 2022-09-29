@@ -1,0 +1,257 @@
+[09/28/2022 01:20:51AM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/28/2022 01:20:51AM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/28/2022 01:20:51AM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 01:20:52AM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 01:20:52AM]-[werkzeug]-[INFO]- * Debugger PIN: 665-161-295
+[09/28/2022 01:21:08AM]-[api]-[INFO]-Key name plate is missing
+[09/28/2022 01:21:08AM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 01:21:08] "[31m[1mPOST /plate HTTP/1.1[0m" 400 -
+[09/28/2022 01:21:13AM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 01:21:13AM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 01:21:13] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 11:43:27AM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/28/2022 11:43:27AM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/28/2022 11:43:27AM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 11:43:28AM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 11:43:28AM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 11:44:47AM]-[api]-[INFO]-search the car plate details in database
+[09/28/2022 11:44:47AM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 11:44:47] "GET /search-plate?key=M-D1234&levenshtein=0 HTTP/1.1" 200 -
+[09/28/2022 11:45:08AM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 11:45:08AM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 11:45:08] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 04:25:47PM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/28/2022 04:25:47PM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/28/2022 04:25:47PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 04:25:48PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 04:25:48PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 05:43:50PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\__main__.py', reloading
+[09/28/2022 05:43:51PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 05:43:52PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 05:43:52PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 05:44:30PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\__main__.py', reloading
+[09/28/2022 05:44:30PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 05:44:31PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 05:44:31PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 05:45:04PM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/28/2022 05:45:04PM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/28/2022 05:45:04PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 05:45:05PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 05:45:05PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/index.css HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 05:45:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:45:13] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+[09/28/2022 05:52:20PM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/28/2022 05:52:20PM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/28/2022 05:52:20PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 05:52:20PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 05:52:20PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:52:49PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:52:49] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+[09/28/2022 05:53:57PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:53:57] "[33mGET /request HTTP/1.1[0m" 404 -
+[09/28/2022 05:56:52PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:52] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 05:56:52PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:52] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:56:52PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:52] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 05:56:52PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:52] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:56:52PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:52] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 05:56:53PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:53] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 05:56:53PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 17:56:53] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+[09/28/2022 06:03:07PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:03:07] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:07:41PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:07:41] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:08:03PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 06:08:03PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:08:03] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:11:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:13] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:11:18PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 06:11:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:18] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 06:11:19PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 06:11:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:11:19] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:12:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:12:36] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:16:50PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:50] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:16:51PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:16:51] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:17:22PM]-[api]-[INFO]-Key name plate is missing
+[09/28/2022 06:17:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:17:22] "[31m[1mPOST /plate HTTP/1.1[0m" 400 -
+[09/28/2022 06:17:54PM]-[api]-[INFO]-car plate number M-B1223 added to database successfully!
+[09/28/2022 06:17:54PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:17:54] "POST /plate HTTP/1.1" 200 -
+[09/28/2022 06:18:15PM]-[api]-[INFO]-Not a valid germany car plate number
+[09/28/2022 06:18:15PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:18:15] "[31m[1mPOST /plate HTTP/1.1[0m" 422 -
+[09/28/2022 06:21:11PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:21:11] "[33mGET /request/1 HTTP/1.1[0m" 404 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:25:55PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:25:55] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:26:13PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 06:26:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:26:13] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 06:26:36PM]-[api]-[INFO]-car plate number M-B123 added to database successfully!
+[09/28/2022 06:26:36PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:26:36] "POST /plate HTTP/1.1" 200 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:29:16PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:16] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:22] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:26] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:29:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:29:34] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:31:27PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:31:27] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:35:34PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:35:34] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:39:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:39:18] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:40:13PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:40:13] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:41:02PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:41:02] "[33mGET /search-plate/MB234 HTTP/1.1[0m" 404 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:46:01PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:01] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:46:31PM]-[api]-[INFO]-search the car plate details in database
+[09/28/2022 06:46:31PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:46:31] "GET /search-plate?key=M-bbb1&levenshtein=1 HTTP/1.1" 200 -
+[09/28/2022 06:56:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:18] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 06:56:19PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:56:19] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 06:57:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:57:22] "[33mGET / HTTP/1.1[0m" 404 -
+[09/28/2022 06:57:26PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 06:57:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 18:57:26] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:00:38PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:00:38] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 07:01:18PM]-[api]-[INFO]-call for fetching the car details
+[09/28/2022 07:01:18PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:01:18] "GET /plate HTTP/1.1" 200 -
+[09/28/2022 07:01:39PM]-[api]-[INFO]-car plate number M-B1234 added to database successfully!
+[09/28/2022 07:01:39PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:01:39] "POST /plate HTTP/1.1" 200 -
+[09/28/2022 07:02:14PM]-[api]-[INFO]-search the car plate details in database
+[09/28/2022 07:02:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:02:14] "GET /search-plate?key=MK666&levenshtein=4 HTTP/1.1" 200 -
+[09/28/2022 07:03:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:14] "GET /swagger/ HTTP/1.1" 200 -
+[09/28/2022 07:03:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:14] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+[09/28/2022 07:03:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:14] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+[09/28/2022 07:03:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:14] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:03:14PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:14] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[09/28/2022 07:03:15PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:15] "GET /static/swagger.json HTTP/1.1" 200 -
+[09/28/2022 07:03:15PM]-[werkzeug]-[INFO]-127.0.0.1 - - [28/Sep/2022 19:03:15] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+[09/28/2022 07:05:02PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\test_api.py', reloading
+[09/28/2022 07:05:02PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 07:05:03PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 07:05:03PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 07:06:21PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\test_api.py', reloading
+[09/28/2022 07:06:21PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 07:06:23PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 07:06:23PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 07:07:46PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\test_api.py', reloading
+[09/28/2022 07:07:46PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 07:07:47PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 07:07:47PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 07:10:15PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\test_api.py', reloading
+[09/28/2022 07:10:16PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 07:10:17PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 07:10:17PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313
+[09/28/2022 07:11:09PM]-[werkzeug]-[INFO]- * Detected change in 'C:\\Users\\AnjelVinoth\\Downloads\\app (1)\\app\\test_api.py', reloading
+[09/28/2022 07:11:09PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/28/2022 07:11:10PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/28/2022 07:11:10PM]-[werkzeug]-[INFO]- * Debugger PIN: 135-105-313

@@ -1,0 +1,151 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "car",
+    "version": "1.0.0",
+    "title": "Flask Rest swagger",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Car Request",
+      "description": "Example API for requesting and return car details"
+    }
+  ],
+  "paths": {
+    "/plate": {
+      "get": {
+        "tags": [
+          "Car details"
+        ],
+        "summary": "Returns car details",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/carRequests"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Car details"
+        ],
+        "summary": "add a new number plate to the system",
+        "requestBody": {
+          "description": "Car - Post Object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/carRequestPostBody"
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "car plate number added successfully",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          "400": {
+            "description": "Failed. Bad post data.Key name plate is missing"
+          },
+          "422": {
+            "description": "Failed. Not a valid germany car plate number"
+          }
+        }
+      }
+    },
+     "/search-plate?key={key}&levenshtein={levenshtein}": {
+      "parameters": [
+        {
+          "name": "key",
+          "in": "path",
+          "required": true,
+          "description": "plate number of the car",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Car details"
+        ],
+        "summary": "Get car details with given ID",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "levenshtein",
+            "required": true,
+            "description": "distance value",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/carRequest"
+            }
+          }
+
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "carRequestPostBody": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string",
+            "format": "string"
+          }
+
+        }
+      },
+      "carRequest": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string",
+            "format": "string"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "number"
+          }
+        }
+      },
+      "carRequests": {
+        "type": "object",
+        "properties": {
+          "carRequest": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/carRequest"
+            }
+          }
+        }
+      }
+    }
+  }
+}
