@@ -15,19 +15,3 @@ class Config:
     DEBUG = True  # Turns on debugging features in Flask
     DEVELOPMENT = True
 
-    @staticmethod
-    def loads(**kwargs):
-        """Static Method to load config from keyword arguments"""
-        for key, value in kwargs.items():
-            if hasattr(Config, key):
-                setattr(Config, key, value)
-
-
-def get_config_atrr():
-    """Function to return all configuration available for the module"""
-    for key, value in Config.__annotations__.items():
-        print('{}: {}'.format(key, value))
-
-
-if __name__ == '__main__':
-    get_config_atrr()
