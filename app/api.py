@@ -129,7 +129,7 @@ def search_car_plate_details():
                                                  car_details.country,
                                                  car_details.inserted_on).all()
         db.session.commit()
-        if len(get_car_plate_details) > 0:
+        if get_car_plate_details:
             df = pd.DataFrame(get_car_plate_details, columns=[
                               'car_id', 'plate', 'country', 'timestamp'])
             df['plate'] = df['plate'].str.replace('-', '')

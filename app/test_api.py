@@ -4,15 +4,12 @@ import json
 
 
 class TestApi(unittest.TestCase):
-    url = "http://127.0.0.1:16521/plate"
-    url_search = "http://127.0.0.1:16521/search-plate?"
+    url = "http://127.0.0.1:5000/plate"
+    url_search = "http://127.0.0.1:5000/search-plate"
     data = {"plate": "B3"}
-    key = "M-D123"
-    levenshtein = 5
 
     def test_getall_car_details(self):
         response = requests.get(self.url)
-        # also check for response.. what data ur expecting in all testcases
         self.assertEqual(response.status_code, 200)
 
     def test_post_car_details(self):
@@ -20,9 +17,8 @@ class TestApi(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_search_car_details(self):
-        # use params keyword argument instead of string format
-        response = requests.get(
-            self.url_search + 'key={}&levenshtein={}'.format(self.key, self.levenshtein))
+        response= requests.get(self.url,params={"key":"test","levenshtein":"9"})
+        print(response.json())
         self.assertEqual(response.status_code, 200)
 
 

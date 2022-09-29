@@ -34,6 +34,7 @@ pip install -r app/requirements.txt
 
 This data can be got by running `python app/config.py`
 
+Need to change this environment variable in docker-compose file 
 ```
 user_name: <class 'str'>
 password: <class 'str'>
@@ -52,14 +53,10 @@ port: <class 'int'>
 |port | integer | Port for RabbitMQ | false | 5432 |
 
 **app**
-### swagger
-
-### url : http://127.0.0.1:5000/
-
 
 ## Users endpoint
 
-### POST http://127.0.0.1:5000/plate
+### POST http://localhost:5002/plate
 
 ### REQUEST
     {
@@ -72,7 +69,7 @@ port: <class 'int'>
 
 
 
-### GET http://127.0.0.1:5000/plate
+### GET http://localhost:5002/plate
 
 ### RESPONSE
        {
@@ -84,7 +81,7 @@ port: <class 'int'>
       ]
     }
 
-### GET http://127.0.0.1:5000/search-plate?key=ABC123&levenshtein=4
+### GET http://localhost:5002/search-plate?key=ABC123&levenshtein=4
 
 ### RESPONSE
     {
@@ -128,3 +125,8 @@ docker-compose up -d
 ```
 python app/test_api.py
 ```
+
+
+### swagger
+
+### url : http://localhost:5002/

@@ -62,3 +62,16 @@
 [09/29/2022 12:53:26PM]-[werkzeug]-[INFO]-127.0.0.1 - - [29/Sep/2022 12:53:26] "POST /plate HTTP/1.1" 200 -
 [09/29/2022 12:53:42PM]-[api]-[INFO]-call for fetching the car details
 [09/29/2022 12:53:42PM]-[werkzeug]-[INFO]-127.0.0.1 - - [29/Sep/2022 12:53:42] "GET /plate HTTP/1.1" 200 -
+[09/29/2022 01:00:03PM]-[werkzeug]-[INFO]-127.0.0.1 - - [29/Sep/2022 13:00:03] "GET / HTTP/1.1" 200 -
+[09/29/2022 01:00:20PM]-[api]-[INFO]-call for fetching the car details
+[09/29/2022 01:00:20PM]-[werkzeug]-[INFO]-127.0.0.1 - - [29/Sep/2022 13:00:20] "GET /plate HTTP/1.1" 200 -
+[09/29/2022 01:02:22PM]-[api]-[INFO]-call for fetching the car details
+[09/29/2022 01:02:22PM]-[werkzeug]-[INFO]-127.0.0.1 - - [29/Sep/2022 13:02:22] "GET /plate HTTP/1.1" 200 -
+[09/29/2022 02:32:46PM]-[werkzeug]-[INFO]-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.158:5000
+[09/29/2022 02:32:46PM]-[werkzeug]-[INFO]-[33mPress CTRL+C to quit[0m
+[09/29/2022 02:32:47PM]-[werkzeug]-[INFO]- * Restarting with stat
+[09/29/2022 02:32:48PM]-[werkzeug]-[WARNING]- * Debugger is active!
+[09/29/2022 02:32:48PM]-[werkzeug]-[INFO]- * Debugger PIN: 463-444-964
